@@ -1,5 +1,4 @@
 // Guess a number
-
 let number = Math.floor((Math.random() * 100) + 1); // Generates a random number b/w 1 and 100
 let chances = 0; // Initial vaulue of chances taken to guess a number
 let guess; // Variable to store the number to be input from user to be guessed

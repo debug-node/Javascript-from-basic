@@ -21,4 +21,3 @@ if (["S", "W", "G"].includes(user)) {
 } else {
     alert("Invalid input! Please enter S, W, or G.");
 }
-

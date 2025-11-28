@@ -37,7 +37,7 @@ console.log(n)
 /*
 let arr = [1, 2, 3, 4, 10, 20, 30, 50]
 let n = arr.map((x) => {
-    return x * x 
+    return x * x
 })
 console.log(n)
 */

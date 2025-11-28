@@ -1,4 +1,4 @@
-// Q1. What will the following print in JS 
+// Q1. What will the following print in JS
 //      console.log("har\"".length)
 
 /*

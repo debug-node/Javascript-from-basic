@@ -1,5 +1,5 @@
 // Q1. Create a navbar and change the color of its first element to red.
- 
+
 document.getElementsByTagName("nav")[0].firstElementChild.style.color = "red"
 
 // Q2. Create a table without tbody. Now use "view page source" button to check whether it has a tbody or Not.

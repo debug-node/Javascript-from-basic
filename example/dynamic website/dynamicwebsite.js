@@ -34,6 +34,6 @@ createCard(
     "CodeWithHarry",
     560000,
     7,
-    "31:22", 
+    "31:22",
     "https://i.ytimg.com/vi/tVzUXW6siu0/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLACwWOixJVrKLFindK92kYMgTcQbw"
 );
