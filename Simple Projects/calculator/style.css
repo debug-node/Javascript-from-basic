@@ -14,13 +14,28 @@ body {
     align-items: center;
     justify-content: center;
     padding: 32px;
-    background:
-        radial-gradient(800px 400px at 10% 10%, #eaf6ff 0%, rgba(234, 246, 255, 0) 18%),
-        linear-gradient(180deg, #fafcff, #f3f8ff);
+    background: linear-gradient(135deg, #4158d0, #c850c0, #ffcc70);
+    background-size: 300% 300%;
+    animation: bgMove 12s infinite ease-in-out;
     font-family: Inter, "Segoe UI", Roboto, system-ui, -apple-system, "Helvetica Neue", Arial;
 }
 
+@keyframes bgMove {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
 #calculator {
+    background: linear-gradient(180deg, #fafcff96, #f3f8ffb9);
     width: 360px;
     max-width: calc(100% - 40px);
     border-radius: 18px;
@@ -29,6 +44,13 @@ body {
         0 18px 40px rgba(8, 30, 70, 0.10),
         inset 0 1px 0 rgba(255, 255, 255, 0.6);
     border: 1px solid rgba(70, 100, 160, 0.06);
+    transition: transform 0.35s ease, box-shadow 0.35s ease;
+}
+
+#calculator:hover {
+    transform: translateY(-8px) scale(1.01);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.35);
+    ;
 }
 
 #display {
@@ -87,20 +109,20 @@ body {
 }
 
 .button.clear {
-    background: linear-gradient(180deg, #fff3f6, #ffe6ec);
-    color: #7b1530;
+    background: linear-gradient(180deg, #f6afc1, #f3d5dc);
+    color: #c61b49f0;
     box-shadow: 0 10px 26px rgba(160, 60, 90, 0.06);
 }
 
 .button.operator {
-    background: linear-gradient(180deg, #fff9ec, #fff2d9);
-    color: #7a4a00;
+    background: linear-gradient(180deg, #f7ebd2, #fbf5eb);
+    color: #a96705;
     box-shadow: 0 10px 26px rgba(140, 100, 40, 0.06);
 }
 
 .button.equal {
-    background: linear-gradient(180deg, #e6f8ff, #cdeeff);
-    color: #003b66;
+    background: linear-gradient(180deg, #aae4fb, #d1eefd);
+    color: #006bb7;
     box-shadow: 0 12px 32px rgba(6, 84, 137, 0.10);
     font-size: 19px;
 }
