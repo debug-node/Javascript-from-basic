@@ -10,6 +10,10 @@ function press(value) {
     updateDisplay();
 }
 
+function backspace() {
+    display.value = display.value.slice(0, -1);
+}
+
 function clearDisplay() {
     currentDisplay = '';
     updateDisplay();
