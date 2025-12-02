@@ -1,0 +1,4 @@
+Chapter 1 = 1. Intro
+            2. Variable
+            3. Declaration
+            4. Primitives & Non Primitives Data Types
