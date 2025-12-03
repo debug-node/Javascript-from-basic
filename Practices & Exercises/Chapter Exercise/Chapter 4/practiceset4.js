@@ -1,6 +1,7 @@
 // Q1. What will the following print in JS
 //      console.log("har\"".length)
 
+
 /*
 let str = "har\""
 console.log(str.length)
