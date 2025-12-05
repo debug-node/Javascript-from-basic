@@ -18,3 +18,10 @@ Chapter 5 = 1. Arrays
             2. Arrays Methods
             3. Using Loops With Arrays
             4. Map Filters and Reduce
+
+Chapter 6 = 1. JS in Browser
+            2. Script Tag
+            3. Console Object
+            4. Alert Prompt & Confirm Object
+            5. DOM, BOM, and Window Object
+
