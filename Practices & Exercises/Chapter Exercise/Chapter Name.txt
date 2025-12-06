@@ -25,3 +25,11 @@ Chapter 6 = 1. JS in Browser
             4. Alert Prompt & Confirm Object
             5. DOM, BOM, and Window Object
 
+Chapter 7 = 1. Walking the DOM
+            2. Accessing Children
+            3. Parents & Children
+            4. Element only navigation
+            5. Table navigation
+            6. Searching the DOM
+            7. Matches, Closest & Contains
+
