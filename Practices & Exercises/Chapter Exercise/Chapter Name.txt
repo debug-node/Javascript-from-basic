@@ -33,3 +33,11 @@ Chapter 7 = 1. Walking the DOM
             6. Searching the DOM
             7. Matches, Closest & Contains
 
+Chapter 8 = 1. innerHTML, outerHTML
+            2. Attributes and Their Methods
+            3. Insertion Methods
+            4. insertAdjacentHTML
+            5. ClassName and ClassList
+            6. setInterval and setTimeout
+            7. Browser Events
+            8. Handling Browser Events
