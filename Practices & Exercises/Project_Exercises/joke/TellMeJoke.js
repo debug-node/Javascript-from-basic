@@ -25,8 +25,23 @@ const myJokes = [
 
 const jokeBtn = document.getElementById("jokeBtn");
 const joke = document.getElementById("joke");
+const home = document.getElementById("home");
+const jokes = document.getElementById("jokes");
 
-jokeBtn.addEventListener("click", () => {
+function showRandomJoke() {
     const randomIndex = Math.floor(Math.random() * myJokes.length);
     joke.innerText = myJokes[randomIndex];
+}
+
+function showAllJokes() {
+    joke.innerHTML = myJokes
+        .map((j, i) => `<p>${i + 1}. ${j}</p>`)
+        .join("");
+}
+
+jokeBtn.addEventListener("click", showRandomJoke);
+
+jokes.addEventListener("click", showAllJokes);
+home.addEventListener("click", () => {
+    joke.innerText = "";
 });
